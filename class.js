@@ -19,7 +19,7 @@
             return `Your Balance is: ${this.getbalance()}`;
         }
     };
-    const nisha = new Account ("Nisha", 151, 10_000);
+    const nisha = new Account ("Nisha", 151, 10_000)
     console.log(nisha.getbalance());    
     console.log(nisha.withdraw(1000));
     console.log(nisha.deposit(100));
